@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 from openfast_toolbox import FASTOutputFile
 
 # File paths
-output_path = r"D:\PhD\Mohsen\DISCON_Examples\_OpenFASTFiles\Run_1100.out"
-debug_path = r"D:\PhD\Mohsen\DISCON_Examples\_OpenFASTFiles\Run_1100.RO.dbg"
+output_path = "\Run.out"
+debug_path =  "\Run.RO.dbg"
 
 # Read OpenFAST output file
 output = FASTOutputFile(output_path)
