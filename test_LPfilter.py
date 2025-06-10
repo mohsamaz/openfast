@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from openfast_toolbox import FASTOutputFile
 
 # File paths
-output_path = "\Run.out"
+output_path = "\Run.out"            
 debug_path =  "\Run.RO.dbg"
 
 # Read OpenFAST output file
@@ -39,7 +39,7 @@ def main():
     # Parameters
     dt = np.mean(np.diff(time_output))
     
-    cornering_frequency_Hz = 1
+    cornering_frequency_Hz = 1       # change cornering_frequency_Hz to check it
     corner_freq = 2 * np.pi * cornering_frequency_Hz   #1 Hz corner frequency (6.2832 rad/s)
     
     # Initialize filter
